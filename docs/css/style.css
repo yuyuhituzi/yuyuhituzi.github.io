@@ -50,16 +50,7 @@ body {
 	word-wrap: break-word;
 	background: #f7f7f7;
 	-webkit-font-smoothing: antialiased;
-	
-	background-image: -moz-linear-gradient(45deg, #CAE9FF 0%, #CAE9FF 25%, #ffffff 25%, #ffffff 50%, #CAE9FF 50%, #CAE9FF 75%, #ffffff 75%);
-	background-image: -webkit-linear-gradient(45deg, #CAE9FF 0%,#CAE9FF 25%,#ffffff 25%,#ffffff 50%,#CAE9FF 50%,#CAE9FF 75%,#ffffff 75%);
-	background-image: linear-gradient(45deg, #CAE9FF 0%,#CAE9FF 25%,#ffffff 25%,#ffffff 50%,#CAE9FF 50%,#CAE9FF 75%,#ffffff 75%);
-	background-position: 0px 0px;
-	background-size: 10px 10px;
 }
-
-
-
 
 .container {
 	position: relative;

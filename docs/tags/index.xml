@@ -6,13 +6,94 @@
     <description>Recent content in Tags on Yuki Sawai の Webサイト</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Jan 2023 14:00:00 +0000</lastBuildDate><atom:link href="https://yuyuhituzi.github.io/yu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 14:00:00 +0000</lastBuildDate><atom:link href="https://yuyuhituzi.github.io/yu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduce</title>
-      <link>https://yuyuhituzi.github.io/yu/tags/introduce/</link>
-      <pubDate>Tue, 24 Jan 2023 14:00:00 +0000</pubDate>
+      <title>Installation</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/installation/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
       
-      <guid>https://yuyuhituzi.github.io/yu/tags/introduce/</guid>
+      <guid>https://yuyuhituzi.github.io/yu/tags/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic Elements</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/basic-elements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/css/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/html/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://yuyuhituzi.github.io/yu/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/yu/tags/themes/</guid>
       <description></description>
     </item>
     

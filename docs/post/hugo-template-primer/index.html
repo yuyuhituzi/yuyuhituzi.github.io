@@ -8,20 +8,14 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="(Hu)go Template Primer" />
-<meta property="og:description" content="Hugo uses the excellent 
-Go
-
- 
-html/template
-
- library for
+<meta property="og:description" content="Hugo uses the excellent Go html/template library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in Go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/hugo-template-primer/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://yuyuhituzi.github.io/yu/post/hugo-template-primer/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
 
@@ -30,10 +24,10 @@ similarities in Go templates." />
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/yu/css/style.css">
 	
 
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="/yu/favicon.ico">
 		
 </head>
 <body class="body">
@@ -42,9 +36,9 @@ similarities in Go templates." />
 	<div class="container header__container">
 		
 	<div class="logo logo--mixed">
-		<a class="logo__link" href="/" title="Yuki Sawai の Webサイト" rel="home">
+		<a class="logo__link" href="/yu/" title="Yuki Sawai の Webサイト" rel="home">
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/img/profile.jpg">
+					<img class="logo__img" src="/yu/img/profile.jpg">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">Yuki Sawai の Webサイト</div>
 					
@@ -58,35 +52,35 @@ similarities in Go templates." />
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/docs/profile/">
+			<a class="menu__link" href="/yu/docs/getting-started/">
 				
-				<span class="menu__text">PROFILE</span>
+				<span class="menu__text">Getting started</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/docs/customization/">
+			<a class="menu__link" href="/yu/docs/customization/">
 				
 				<span class="menu__text">Customization</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/docs/faq/">
+			<a class="menu__link" href="/yu/docs/faq/">
 				
 				<span class="menu__text">FAQ</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/post/basic-elements/">
+			<a class="menu__link" href="/yu/post/basic-elements/">
 				
 				<span class="menu__text">Basic Elements</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/about/">
+			<a class="menu__link" href="/yu/about/">
 				
 				<span class="menu__text">About</span>
 				
@@ -106,32 +100,23 @@ similarities in Go templates." />
 			<h1 class="post__title">(Hu)go Template Primer</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-04-02T00:00:00Z">April 02, 2014</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/development/" rel="category">Development</a>, <a class="meta__link" href="/categories/golang/" rel="category">golang</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-04-02T00:00:00Z">April 02, 2014</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/yu/categories/development/" rel="category">Development</a>, <a class="meta__link" href="/yu/categories/golang/" rel="category">golang</a>
 	</span>
 </div></div>
 		</header>
 		
 	<figure class="post__thumbnail thumbnail">
 		
-		<img class="thumbnail__image" src="/img/placeholder.png" alt="(Hu)go Template Primer">
+		<img class="thumbnail__image" src="/yu/img/placeholder.png" alt="(Hu)go Template Primer">
 		
 	</figure><div class="content post__content clearfix">
-			<p>Hugo uses the excellent 
-<a href="https://golang.org/" target="_blank">Go</a>
-
- 
-<a href="https://golang.org/pkg/html/template/" target="_blank">html/template</a>
-
- library for
+			<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in Go templates.</p>
-<p>This document is a brief primer on using Go templates. The 
-<a href="https://golang.org/pkg/html/template/" target="_blank">Go docs</a>
-
-
+<p>This document is a brief primer on using Go templates. The <a href="https://golang.org/pkg/html/template/">Go docs</a>
 provide more details.</p>
 <h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
 <p>Go templates provide an extremely simple template language. It adheres to the
@@ -139,10 +124,7 @@ belief that only the most basic of logic belongs in the template or view layer.
 One consequence of this simplicity is that Go templates parse very quickly.</p>
 <p>A unique characteristic of Go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
-details can be found in the 
-<a href="https://golang.org/pkg/html/template/" target="_blank">Go docs</a>
-
-.</p>
+details can be found in the <a href="https://golang.org/pkg/html/template/">Go docs</a>.</p>
 <h2 id="basic-syntax">Basic Syntax</h2>
 <p>Golang templates are HTML files with the addition of variables and
 functions.</p>
@@ -165,10 +147,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-
-<a href="/layout/variables">variables</a>
-
- page.</p>
+<a href="/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -179,11 +158,8 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. 
-<a href="/layout/functions">Hugo template
-functions</a>
-
- provide some additional functionality we believe
+available functions with their own. <a href="/layout/functions">Hugo template
+functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
 functions cannot be added without recompiling hugo.</p>
@@ -313,10 +289,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the 
-<a href="/content/front-matter">front matter</a>
-
-.</p>
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
@@ -378,19 +351,19 @@ so, such as in this example:</p>
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/go/" rel="tag">go</a>
+			<a class="tags__link btn" href="/yu/tags/go/" rel="tag">go</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/golang/" rel="tag">golang</a>
+			<a class="tags__link btn" href="/yu/tags/golang/" rel="tag">golang</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/templates/" rel="tag">templates</a>
+			<a class="tags__link btn" href="/yu/tags/templates/" rel="tag">templates</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/themes/" rel="tag">themes</a>
+			<a class="tags__link btn" href="/yu/tags/themes/" rel="tag">themes</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/development/" rel="tag">development</a>
+			<a class="tags__link btn" href="/yu/tags/development/" rel="tag">development</a>
 		</li>
 	</ul>
 </div>
@@ -400,7 +373,7 @@ so, such as in this example:</p>
 
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Yuki Sawai avatar" src="/img/profile.jpg" class="avatar" height="90" width="90">
+		<img alt="Yuki Sawai avatar" src="/yu/img/profile.jpg" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
 		<span class="authorbox__name">Yuki Sawaiについて</span>
@@ -412,13 +385,13 @@ so, such as in this example:</p>
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/post/getting-started-with-hugo/" rel="prev">
+		<a class="pager__link" href="/yu/post/getting-started-with-hugo/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;前の投稿</span>
 			<p class="pager__title">Getting Started with Hugo</p>
 		</a>
 	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/post/basic-elements/" rel="next">
+		<a class="pager__link" href="/yu/post/basic-elements/" rel="next">
 			<span class="pager__subtitle">次の投稿&thinsp;»</span>
 			<p class="pager__title">Basic HTML Elements</p>
 		</a>
@@ -433,18 +406,18 @@ so, such as in this example:</p>
 			<input class="widget-search__field" type="search" placeholder="検索…" value="" name="q" aria-label="検索…">
 		</label>
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="/">
+		<input type="hidden" name="sitesearch" value="https://yuyuhituzi.github.io/yu/">
 	</form>
 </div>
 <div class="widget-recent widget">
 	<h4 class="widget__title">最近の投稿</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/docs/profile/">PROFILE</a></li>
-			<li class="widget__item"><a class="widget__link" href="/docs/customization/">Customization</a></li>
-			<li class="widget__item"><a class="widget__link" href="/docs/faq/">Frequently asked questions (FAQ)</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/basic-elements/">Basic HTML Elements</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugo-template-primer/">(Hu)go Template Primer</a></li>
+			<li class="widget__item"><a class="widget__link" href="/yu/docs/getting-started/">Getting started</a></li>
+			<li class="widget__item"><a class="widget__link" href="/yu/docs/customization/">Customization</a></li>
+			<li class="widget__item"><a class="widget__link" href="/yu/docs/faq/">Frequently asked questions (FAQ)</a></li>
+			<li class="widget__item"><a class="widget__link" href="/yu/post/basic-elements/">Basic HTML Elements</a></li>
+			<li class="widget__item"><a class="widget__link" href="/yu/post/hugo-template-primer/">(Hu)go Template Primer</a></li>
 		</ul>
 	</div>
 </div>
@@ -453,25 +426,25 @@ so, such as in this example:</p>
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
-				<a class="widget__link" href="/categories/development/">Development</a></li>
+				<a class="widget__link" href="/yu/categories/development/">Development</a></li>
 			<li class="widget__item">
-				<a class="widget__link" href="/categories/golang/">golang</a></li>
+				<a class="widget__link" href="/yu/categories/golang/">golang</a></li>
 		</ul>
 	</div>
 </div>
 <div class="widget-taglist widget">
 	<h4 class="widget__title">タグ</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/basic-elements/" title="Basic Elements">Basic Elements</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/css/" title="CSS">CSS</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/development/" title="development">development</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="go">go</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/golang/" title="golang">golang</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/html/" title="HTML">HTML</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="hugo">hugo</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/installation/" title="Installation">Installation</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/templates/" title="templates">templates</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/themes/" title="themes">themes</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/basic-elements/" title="Basic Elements">Basic Elements</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/css/" title="CSS">CSS</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/development/" title="development">development</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/go/" title="go">go</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/golang/" title="golang">golang</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/html/" title="HTML">HTML</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/hugo/" title="hugo">hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/installation/" title="Installation">Installation</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/templates/" title="templates">templates</a>
+		<a class="widget-taglist__link widget__link btn" href="/yu/tags/themes/" title="themes">themes</a>
 	</div>
 </div>
 </aside>
@@ -486,6 +459,6 @@ so, such as in this example:</p>
 	</div>
 </footer>
 	</div>
-<script async defer src="/js/menu.js"></script>
+<script async defer src="/yu/js/menu.js"></script>
 </body>
 </html>
