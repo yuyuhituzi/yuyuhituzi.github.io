@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Yuki Sawai の Webサイト</title>
+    <link>/docs/</link>
+    <description>Recent content in Documentation on Yuki Sawai の Webサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 24 Jan 2023 14:00:00 +0000</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PROFILE</title>
+      <link>/docs/profile/</link>
+      <pubDate>Tue, 24 Jan 2023 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/profile/</guid>
+      <description>&lt;p&gt;澤井佑樹と言います。
+企業の研究所でコンピュータサイエンスに関連する研究に従事してきました。
+組合せ最適化、機械学習と統計、高機能暗号を専門としています。
+現在は社会人として働きながら、電気通信大学にて
+&lt;a href=&#34;https://iw-lab.jp/member/sawaiyuki/&#34; target=&#34;_blank&#34;&gt;Doctor&lt;/a&gt;
+
+取得を目指しています。&lt;/p&gt;
+&lt;p&gt;出身地は滋賀県の湖北地方です。
+水と自然豊かで、暮らしやすい場所です。
+現在は故郷を離れて生活していますが、
+ゆくゆくは故郷発展のために貢献できたらと考えています。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Customization</title>
+      <link>/docs/customization/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/customization/</guid>
+      <description>&lt;p&gt;Customization page describes common Mainroad configuration parameters which can be specified via configuration file or
+via Front Matter section. That includes logo section tuning, adding a sidebar with widgets, adjusting highlight color,
+and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Frequently asked questions (FAQ)</title>
+      <link>/docs/faq/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/faq/</guid>
+      <description>&lt;p&gt;Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere
+in the documentation.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuki Sawai の Webサイト</title>
+    <link>/</link>
+    <description>Recent content on Yuki Sawai の Webサイト</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 24 Jan 2023 14:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PROFILE</title>
+      <link>/docs/profile/</link>
+      <pubDate>Tue, 24 Jan 2023 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/profile/</guid>
+      <description>&lt;p&gt;澤井佑樹と言います。
+企業の研究所でコンピュータサイエンスに関連する研究に従事してきました。
+組合せ最適化、機械学習と統計、高機能暗号を専門としています。
+現在は社会人として働きながら、電気通信大学にて
+&lt;a href=&#34;https://iw-lab.jp/member/sawaiyuki/&#34; target=&#34;_blank&#34;&gt;Doctor&lt;/a&gt;
+
+取得を目指しています。&lt;/p&gt;
+&lt;p&gt;出身地は滋賀県の湖北地方です。
+水と自然豊かで、暮らしやすい場所です。
+現在は故郷を離れて生活していますが、
+ゆくゆくは故郷発展のために貢献できたらと考えています。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Customization</title>
+      <link>/docs/customization/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/customization/</guid>
+      <description>&lt;p&gt;Customization page describes common Mainroad configuration parameters which can be specified via configuration file or
+via Front Matter section. That includes logo section tuning, adding a sidebar with widgets, adjusting highlight color,
+and more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Frequently asked questions (FAQ)</title>
+      <link>/docs/faq/</link>
+      <pubDate>Mon, 24 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/docs/faq/</guid>
+      <description>&lt;p&gt;Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere
+in the documentation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Our website builds with Hugo static site generator and Mainroad theme. This demo allows you to see what Mainroad based website looks like before deciding to go with it. Just keep in mind that the current demo shows the basics, a small part of what the combination of Hugo and Mainroad can do.
+About Mainroad Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.</description>
+    </item>
+    
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>/post/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/basic-elements/</guid>
+      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/post/hugo-template-primer/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hugo-template-primer/</guid>
+      <description>&lt;p&gt;Hugo uses the excellent 
+&lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;Go&lt;/a&gt;
+
+ 
+&lt;a href=&#34;https://golang.org/pkg/html/template/&#34; target=&#34;_blank&#34;&gt;html/template&lt;/a&gt;
+
+ library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/post/getting-started-with-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/getting-started-with-hugo/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
+    </item>
+    
+  </channel>
+</rss>
