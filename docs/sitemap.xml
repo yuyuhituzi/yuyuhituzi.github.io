@@ -3,29 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yuyuhituzi.github.io/docs/profile/</loc>
-    <lastmod>2023-01-24T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/docs/publication/</loc>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/docs/field/</loc>
   </url><url>
     <loc>https://yuyuhituzi.github.io/docs/hobby/</loc>
-    <lastmod>2022-01-24T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yuyuhituzi.github.io/docs/</loc>
-    <lastmod>2023-01-24T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuyuhituzi.github.io/tags/introduce/</loc>
-    <lastmod>2023-01-24T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuyuhituzi.github.io/tags/</loc>
-    <lastmod>2023-01-24T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuyuhituzi.github.io/</loc>
-    <lastmod>2023-01-24T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuyuhituzi.github.io/post/computational-complexity/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuyuhituzi.github.io/post/</loc>
+    <loc>https://yuyuhituzi.github.io/computational-complexity/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuyuhituzi.github.io/categories/</loc>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/docs/</loc>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/tags/introduce/</loc>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/tags/</loc>
+  </url><url>
+    <loc>https://yuyuhituzi.github.io/</loc>
   </url>
 </urlset>
