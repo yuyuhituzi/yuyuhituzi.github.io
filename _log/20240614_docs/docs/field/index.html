@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>研究紹介 - 澤井 佑樹(Sawai Yuki)</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="研究紹介" />
+<meta property="og:description" content="高機能暗号 特に、ゼロ知識証明（zk-SNARKの効率化） 以下は過去の研究分野です。 組合せ最適化 スケジューリング問題 機械学習 クルマのドライバの" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yuyuhituzi.github.io/docs/field/" /><meta property="article:section" content="docs" />
+
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="澤井 佑樹(Sawai Yuki)" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/profile.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">澤井 佑樹(Sawai Yuki)</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">メニュー</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/docs/profile/">
+				
+				<span class="menu__text">自己紹介</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/docs/publication/">
+				
+				<span class="menu__text">経歴・業績</span>
+				
+			</a>
+		</li>
+		<li class="menu__item menu__item--active">
+			<a class="menu__link" href="/docs/field/">
+				
+				<span class="menu__text">研究紹介</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/docs/hobby/">
+				
+				<span class="menu__text">趣味</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">研究紹介</h1>
+			
+		</header>
+		<div class="content post__content clearfix">
+			<ul>
+<li>高機能暗号
+<ul>
+<li>特に、ゼロ知識証明（zk-SNARKの効率化）</li>
+</ul>
+</li>
+</ul>
+<p>以下は過去の研究分野です。</p>
+<ul>
+<li>組合せ最適化
+<ul>
+<li>スケジューリング問題</li>
+</ul>
+</li>
+<li>機械学習
+<ul>
+<li>クルマのドライバの眠気推定、故障検知</li>
+</ul>
+</li>
+</ul>
+<h2 id="ゼロ知識証明">ゼロ知識証明</h2>
+<p><strong>高機能暗号</strong>とは、従来の暗号技術よりも高度な機能を提供する暗号技術全般のことを指します。高度な機能の中には、<strong>プライバシ保護とデータ利活用の両立</strong>を可能とするものがあり、認証に着目した高機能暗号技術に<strong>ゼロ知識証明</strong>があります。</p>
+<p><strong>ゼロ知識証明</strong>とは、
+証明したい事柄を持っている人（Prover）が、それを確かめたい相手（Verifier）に対して、
+<strong>事柄を知っている事実以外は明かさずに、その事実を証明する</strong>技術です。
+結果的に、VerifierはProverが事実を知っているということは納得でき、更に、その事実以外の何の情報も得ることができません。</p>
+<p>例えば、映画館で学生割引を受けたいと考えます。この時、学生証を提示して学生であることを証明することが一般的です。
+しかしその際、学校名や年齢など、証明したいこと以上の過剰な情報までもが相手に提示されてしまいます。
+もし相手を信頼できない場合、安易に余分な情報を渡すことは抵抗を感じるでしょう。
+一方、映画館としては学生であることを納得する必要があります。
+学生が映画館に、余分な情報は一切明かさず、学生であるという事実のみ示すことができれば理想です。これを実現する技術が、ゼロ知識証明です。</p>
+<p>ゼロ知識証明には、以下の3つの性質を満たす必要があります：</p>
+<ul>
+<li>完全性：Proverが正しい知識を持っているなら、Verifierは必ず正しいと判断できる</li>
+<li>健全性：Proverが正しい知識を持たないなら、Verifierは高い確率で誤りと判断できる</li>
+<li>ゼロ知識性：VerifierはProverが証明したい事柄以外の知識を得られない</li>
+</ul>
+<h3 id="直感的な理解">直感的な理解</h3>
+<p>アミット・サハイ教授によるゼロ知識証明の方法を直感的に理解する動画(※)を紹介します。</p>
+<p>動画では、教授が子どもに多数のペンギンが写った写真を見せ、以下のように言います。<br>
+「この中に実は1羽だけ&quot;ツノメドリ&quot;がいる。私はその場所を知っている。場所は教えないけど、いると知っていることだけを示そうと思う」</p>
+<p><img src="/img/zkp_illust_01.png" alt="This is a table"></p>
+<p>教授は写真より数倍大きな厚紙で写真を隠します。
+ただし厚紙には小さな穴が開いており、その穴からは&quot;ツノメドリ&quot;だけが見えています。<br>
+厚紙の後ろのどの位置に写真があるか分からないため、&ldquo;ツノメドリ&quot;の場所は子どもにはわかりません。
+一方、「ツノメドリがいる」ことは示せています。
+<img src="/img/zkp_illust_02.png" alt="This is a table"></p>
+<p>教授をProver、子どもをVerifierと捉え直し、ゼロ知識証明の3性質を満たすか直感的に確認してみましょう。<br>
+Proverがツノメドリの場所を知っているならば、小さい穴とツノメドリの位置を必ず合わせることができます。そのため、完全性を満たしています。<br>
+また、Proverがツノメドリの場所を知らないならば、偶然が起こらない限り、小さい穴とツノメドリの位置を合わせることができず、知っているという主張は嘘であると分かります。そのため健全性を満たします。<br>
+最後に、Verifierは「Proverはツノメドリがいると知っている」事実以外に情報を得ていません。つまり、数倍大きな厚紙に写真が隠されているため、ツノメドリのいる位置に関する情報を得ていません。そのため、ゼロ知識性を満たします。<br>
+以上より、上記の証明方法が、ゼロ知識性の満たすべき3性質を満たしていることを直感的に示しました。</p>
+<p>＜出典＞<br>
+YouTube, 「ゼロ知識証明」って何？5段階のレベルで説明，WIRED.jp（<a href="https://www.youtube.com/watch?v=eAp2HSjDPPk">リンク</a>）<br>
+<a href="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/9PgL6gZ7798?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Martin Wettstein</a>, <a href="https://unsplash.com/ja">Unsplash</a><br>
+<a href="https://pixabay.com/ja/photos/%E3%83%84%E3%83%8E%E3%83%A1%E3%83%89%E3%83%AA-%E9%B3%A5-%E8%87%AA%E7%84%B6-%E9%87%8E%E7%94%9F%E5%8B%95%E7%89%A9-4657956/">sdm2019</a>, <a href="https://pixabay.com/ja/">Pixaday</a></p>
+<h3 id="ゼロ知識証明の応用">ゼロ知識証明の応用</h3>
+<p>ゼロ知識証明では、まず何を隠したいかを定めることが重要です。
+一般に以下の3つの対象を考えることができます。
+<img src="/img/table_01.png" alt="This is a table"></p>
+<p>ゼロ知識証明の応用により、<strong>プライバシ保護とデータ利活用を両立</strong>が可能になります。
+例えば、ブロックチェーンのプライバシ強化、所得証明、年齢証明、パスワードを秘匿した認証、などにゼロ知識証明が役立ちます。<br>
+また、<strong>自己主権型ID(Self-Sovereign IDentity, SSI)</strong> におけるプライバシ保護にも、ゼロ知識証明の応用が期待されています。</p>
+<h4 id="ssi-へのゼロ知識証明の応用">SSI へのゼロ知識証明の応用</h4>
+<p>SSIは、従来のように国や事業者などIDプロバイダにID管理を依存することなく、個人が自身でデジタルアイデンティティを管理するというID管理方法です。
+SSIは分散型社会の実現に向けたID管理方法として、世界レベルで注目を集めつつあります。
+実際、欧州全体でのデータ流通基盤を開発するプロジェクト<a href="https://gaia-x.eu/">GAIA-X</a>や、
+また日本でも、Society5.0を見据え、政府主導で検討が進む次世代webのアーキテクチャ<a href="https://trustedweb.go.jp/">Trusted Web</a>でも、ID管理のベースはSSIです。
+SSIによる認証時のプライバシ保護を目的に、「必要最小限の情報のみを開示する（選択的開示）」ことが可能な技術として、ゼロ知識証明の応用が期待されています。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="ゼロ知識証明の研究開発に向けて">ゼロ知識証明の研究開発に向けて</h3>
+<h4 id="計算効率化">計算効率化</h4>
+<p>ゼロ知識証明では、知識を隠したまま相手に納得させる必要があるため、
+そのための暗号処理の演算量が一般的に大きくなります。
+歴史的な流れから、Verifier側の演算量を削減する研究が盛んに行われてきました。
+しかし、GAIA-XやSociety5.0に代表される分散型社会において、プライバシを守り安全にデータを流通させるためには、
+Proverの演算量削減にも注力する必要があると考えており、私の研究の注力ポイントとして捉えています。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h4 id="研究における志">研究における志</h4>
+<p>実社会への適用を意識し、研究開発を進めています。
+「プライバシ保護とデータ利活用を両立する」と一言で言ったとしても、実際の社会適用のために考えるべきことは沢山あります。
+守るべき対象は何か、どういったシステムへ適用されるか、どういった攻撃者を仮定するか、安全性をどういった数学的仮定に依拠するか（耐量子性はあるか）、などなどです。
+これらの要求をまず定義すること、そして要求を満足できるようなプライバシ保護技術を開発していくことが重要です。
+そのためには、「要求やシステムに対する深い理解」「要求を数学的定義にモデル化する力」
+「モデルの構成法を提案するための経験や思いつきに基づくアイデア」「構成法の安全性を数学的に証明する数学の力」などが必要となります。
+時には<strong>ゼロ知識証明だけではなく高機能暗号技術、あるいはコンピュータサイエンスで扱われている手法を上手に取り込むことが解決策</strong>ともなり得ます。
+例えば数理最適化では離散問題の困難性を克服するための手法が研究されますが、暗号では逆にその困難性を利用して安全な暗号を構築していきます。
+データサイエンスにおいても代数方程式を予測に用いるか、暗号構築に用いるかの違いであり、用いる道具は似ています。
+私は過去より数理最適化やデータサイエンスの研究に取り組んでいましたが、そこで得られた知見を融合し、
+次世代の「プライバシ保護とデータ利活用を両立する」高機能暗号技術の提案に繋げていければと考えています。</p>
+<p><br>
+<a href="https://yuyuhituzi.github.io/">ホームへ戻る</a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/introduce/" rel="tag">Introduce</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2023 澤井 佑樹(Sawai Yuki).
+			<span class="footer__copyright-credits">このサイトは <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> と <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> テーマで生成されています。</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
