@@ -26,10 +26,10 @@
     
     <item>
       <title>Resaerch</title>
-      <link>https://yuyuhituzi.github.io/docs/field/</link>
+      <link>https://yuyuhituzi.github.io/docs/resaerch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yuyuhituzi.github.io/docs/field/</guid>
+      <guid>https://yuyuhituzi.github.io/docs/resaerch/</guid>
       <description>研究 高機能暗号 ゼロ知識証明、範囲証明 匿名認証(ABC, Attribute-based Anonymous Credential) 自己主権型アイデンティティ(SSI, Self-sovereign Identity) その他の興味ある研究分野: 組合せ最適化 ス</description>
     </item>
     
@@ -50,7 +50,7 @@
     </item>
     
     <item>
-      <title>English</title>
+      <title></title>
       <link>https://yuyuhituzi.github.io/docs/english/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -93,8 +93,8 @@ Other research filed interested in:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
 &lt;p&gt;Please see &lt;a href=&#34;https://yuyuhituzi.github.io/docs/publication/&#34;&gt;Publications&lt;/a&gt; site.
-(Sorry in Japanease.)&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;
+(Sorry in Japanease.)
+&lt;br&gt;
 &lt;a href=&#34;https://yuyuhituzi.github.io/&#34;&gt;back home&lt;/a&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
