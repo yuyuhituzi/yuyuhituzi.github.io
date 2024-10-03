@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>澤井 佑樹(Sawai Yuki)</title>
+    <link>https://yuyuhituzi.github.io/</link>
+    <description>Recent content on 澤井 佑樹(Sawai Yuki)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://yuyuhituzi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile</title>
+      <link>https://yuyuhituzi.github.io/docs/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/profile/</guid>
+      <description>所属 株式会社デンソー AI研究部 基盤技術研究室 研究企画推進課 連絡先：yuki.sawai.j8j (at) jp.denso.com 電気通信大学 大学院情報理工学研究科 情報学専</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://yuyuhituzi.github.io/docs/publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/publication/</guid>
+      <description>国内会議 澤井佑樹，胡艶楠，呉偉，橋本英樹，加藤雅樹，斉藤努，柳浦睦憲, &#39;バス乗務員スケジューリング問題に対する列生成アプローチ, &#39; スケジュー</description>
+    </item>
+    
+    <item>
+      <title>Resaerch</title>
+      <link>https://yuyuhituzi.github.io/docs/resaerch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/resaerch/</guid>
+      <description>研究 高機能暗号 ゼロ知識証明、範囲証明 匿名認証(ABC, Attribute-based Anonymous Credential) 自己主権型アイデンティティ(SSI, Self-sovereign Identity) その他の興味ある研究分野: 組合せ最適化 ス</description>
+    </item>
+    
+    <item>
+      <title>Hobby</title>
+      <link>https://yuyuhituzi.github.io/docs/hobby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/hobby/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;テニス&lt;/li&gt;
+&lt;li&gt;百人一首&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;a href=&#34;https://yuyuhituzi.github.io/&#34;&gt;ホームへ戻る&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yuyuhituzi.github.io/docs/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/english/</guid>
+      <description>&lt;h2 id=&#34;belonging&#34;&gt;Belonging&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.denso.com/global/en/&#34;&gt;DENSO CORPORATION&lt;/a&gt; AI R&amp;amp;I Department
+&lt;ul&gt;
+&lt;li&gt;mail：yuki.sawai.j8j (at) jp.denso.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;the University of Electro-Communications, Graduate School of Informatics and Engineering, Department of Informatics
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://iw-lab.jp/?param=en&#34;&gt;Iwamoto, Watanabe Lab.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mail：sawaiyuki (at) uec.ac.jp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cryptography with Advanced Functionality such as:
+&lt;ul&gt;
+&lt;li&gt;Zero knowledge Proof, Range Proofs&lt;/li&gt;
+&lt;li&gt;Attribute-based Anonymous Credential&lt;/li&gt;
+&lt;li&gt;Self-sovereign Identity
+Other research filed interested in:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Combinatorial Optimization
+&lt;ul&gt;
+&lt;li&gt;Scheduling Problem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Machine Learning
+&lt;ul&gt;
+&lt;li&gt;Anomaly Detection (Failure Detection)&lt;/li&gt;
+&lt;li&gt;Human Sensing (Driver Sleepiness Estimation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;p&gt;Please see &lt;a href=&#34;https://yuyuhituzi.github.io/docs/publication/&#34;&gt;Publications&lt;/a&gt; site.
+(Sorry in Japanease.)
+&lt;br&gt;
+&lt;a href=&#34;https://yuyuhituzi.github.io/&#34;&gt;back home&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>computational complexity</title>
+      <link>https://yuyuhituzi.github.io/computational-complexity/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/computational-complexity/</guid>
+      <description>※更新予定です。</description>
+    </item>
+    
+  </channel>
+</rss>

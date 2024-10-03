@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduce on 澤井 佑樹(Sawai Yuki)</title>
+    <link>https://yuyuhituzi.github.io/tags/introduce/</link>
+    <description>Recent content in Introduce on 澤井 佑樹(Sawai Yuki)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://yuyuhituzi.github.io/tags/introduce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://yuyuhituzi.github.io/docs/publication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuyuhituzi.github.io/docs/publication/</guid>
+      <description>国内会議 澤井佑樹，胡艶楠，呉偉，橋本英樹，加藤雅樹，斉藤努，柳浦睦憲, &#39;バス乗務員スケジューリング問題に対する列生成アプローチ, &#39; スケジュー</description>
+    </item>
+    
+  </channel>
+</rss>
